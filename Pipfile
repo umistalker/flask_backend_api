@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-restful = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-swagger-ui = "*"
+marshmallow-sqlalchemy = "*"
+pyjwt = "*"
+
+[dev-packages]
+pytest = "*"
+coverage = "*"
+
+[requires]
+python_version = "3.8"
