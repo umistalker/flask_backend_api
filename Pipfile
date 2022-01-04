@@ -12,6 +12,7 @@ flask-swagger-ui = "*"
 marshmallow-sqlalchemy = "*"
 pyjwt = "*"
 gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 pytest = "*"
