@@ -1,0 +1,15 @@
+language: python
+python:
+  -"3.8"
+
+before_install:
+  - pip install pycodestyle
+
+install:
+  - pip install pipenv
+  - pip install --dev
+
+script:
+  - pytest
+  - coverage run --source="src/" -m pytest
+  - pycodestyle scr/ --ignore=E722, E501, E402
